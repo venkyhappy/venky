@@ -1,0 +1,86 @@
+@media (max-width: 991px){
+    main{
+        padding-top: 62px;
+    }
+    nav.navbar{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .navbar-toggler.logo{
+        height: 50px;
+        background-size: 50%;
+        width: 100px;
+        padding: 0;
+        background-position: left;
+    }
+    .navbar-collapse .logo{
+        display: none;
+    }
+    .lang{
+        width: 300px;
+        margin: auto;
+    }
+    .banner{
+        padding: 45px;
+    }
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner p{
+        width: 100%;
+    }
+    .year-nav-top, .year-nav-bottom{
+        margin: 25px 0;
+    }
+    .contact-form h3{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    footer  ul li{
+        margin: 0 10px;
+    }
+}
+@media (max-width: 765px){
+    .contact-form .md-form{
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+    .contact-form button{
+        height: 42px;
+        margin: auto;
+    }
+    footer{
+        align-items: flex-start;
+        padding: 20px;
+    }
+    footer  ul{
+        display: block;
+        text-align: left;
+    }
+}
+@media (max-width: 575px){
+    .banner {
+        padding: 35px;
+    }
+    .banner h1 {
+        font-size: 35px;
+    }
+    .year-nav-top, .year-nav-bottom{
+        font-size: 16px;
+    }
+    .box-body h3{
+        font-size: 20px;
+    }
+    .box{
+        margin-bottom: 30px;
+    }
+    .contact{
+        padding: 30px 15px;
+    }
+    .contact-form h3 {
+        font-size: 35px;       
+    }
+    .contact-title{
+        font-size: 18px;
+    }
+}
